@@ -3,9 +3,10 @@ package arrays;
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
 		//1. make an array of 5 Strings
-		
+		String[] strings = new String[5];
+		String[] strings2 = {"", "", "", "", ""};
 		//2. print the third element in the array
-		
+		System.out.println(strings[2]);
 		//3. set the third element to a different value
 		
 		//4. print the third element again
